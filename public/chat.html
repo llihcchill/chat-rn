@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html data-theme="light">
+    <head>
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="module" src="/chat.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.lime.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark" />
+    </head>
+
+    <body>
+        <header>
+            <div class="grid">
+                <div></div>
+                <h1>CHAT. RN</h1>
+                <div></div>
+            </div>
+        </header>
+
+        <div class="grid">
+            <div>
+
+                <img src="/david.webp" alt="DAVID TENNANT">
+                <!--<div></div>
+                    <article>rstrst</article> can add a page with notifications
+                <div></div>-->
+            </div>
+            <article class="" >
+                <main role="group" id="messages" class="container-fluid"></main>
+            </article>
+            <div></div>
+        </div>
+
+        <footer id="chat" data-theme="dark"></footer>
+    </body>
+</html>
